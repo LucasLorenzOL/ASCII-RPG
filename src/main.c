@@ -1,6 +1,14 @@
-#include <stdio.h>
+#include "menu.h"
+#include "game.h"
 
 int main() {
-    printf("Hello, World!\n");
+
+    int option;
+
+    option = Menu();
+
+    if(!option)
+        gameLoop();
+
     return 0;
 }

@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_REQUIRED TRUE)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-set(SOURCES src/main.c)
+set(SOURCES src/main.c src/menu.c src/game.c)
 
 add_executable(ASCII-RPG ${SOURCES})
 
